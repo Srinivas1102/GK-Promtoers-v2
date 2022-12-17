@@ -43,6 +43,14 @@ body {
     overflow-x: hidden;
 }
 
+@media(width < 400px){
+    .map-iframe{
+        max-width: 95vw;
+        margin:0 auto ;
+       
+    }
+}
+
 header {
     border-bottom: 2px solid #203584;
 }
@@ -272,6 +280,7 @@ header .nav li a:hover, header .nav li.active a {
     padding: 2em;
 }
 
+
 @media screen and (max-width: 768px) {
     #banner .flexslider .slider-text>.slider-text-inner {
         text-align: center;
@@ -306,10 +315,16 @@ header .nav li a:hover, header .nav li.active a {
 }
 
 @media screen and (max-width: 768px) {
-    #banner .flexslider .slider-text>.slider-text-inner h3 {
+   .#banner .flexslider .slider-text>.slider-text-inner h3 {
         font-size: 28px;
     }
 }
+@media screen and (max-width: 375px) {
+ .btn btn-primary yellow pull-right{
+        display: none;
+    }
+}
+
 
 #banner .flexslider .slider-text>.slider-text-inner h4, .hero h4 {
     font-size: 18px;
@@ -2118,6 +2133,7 @@ footer p {
     justify-content: center;
   }
 
+
 /*********** Gototop ************/
 
 .gototop {
@@ -2256,7 +2272,12 @@ footer p {
     text-align: center;
     border-top: 1px solid #CCC
 }
-
+@media(max-width: 600px) {
+    .mob{
+        display: none;
+    }
+    
+}
 
 
 
