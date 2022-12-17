@@ -43,7 +43,7 @@ body {
     overflow-x: hidden;
 }
 
-@media(width < 400px){
+@media(width > 400px){
     .map-iframe{
         max-width: 95vw;
         margin:0 auto ;
