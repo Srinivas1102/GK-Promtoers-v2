@@ -1,0 +1,25 @@
+{
+    "currentImages": [
+        {
+            "url": "https://www.gkpromoters.com/images/Thiara%20Bageerathi%20Nagar.png",
+            "href": "page1.html",
+            "alt" : "Thiara"
+        },
+        {
+            "url": "https://www.gkpromoters.com/images/Thiara%20Bageerathi%20Nagar.png",
+            "href": "page1.html",
+            "alt" : "Thiara"
+        },
+        {
+            "url": "https://example.com/image1.jpg",
+            "href": "page1.html",
+            "alt" : "Thiara"
+        },
+        {
+            "url": "https://example.com/image1.jpg",
+            "href": "page1.html",
+            "alt" : "Thiara"
+        }
+
+    ]
+}

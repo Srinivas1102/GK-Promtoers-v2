@@ -510,3 +510,27 @@
 
 
 }());
+
+fetch('/js/currentproject.json')
+    .then(response => response.json())
+    .then(data => {
+        const images = data.images;
+        function renderImages() {
+            const imageRow = document.getElementById("imageRow");
+            let html = '';
+
+            images.forEach((image) => {
+                html += `<div class="col-md-4">
+                            <a href="${image.href}">
+                                <img src="${image.url}" class="img-fluid">
+                            </a>
+                         </div>`;
+            });
+
+            imageRow.innerHTML = html;
+        }
+
+        // Call the renderImages function when the page loads
+        window.addEventListener('load', renderImages);
+    })
+    .catch(error => console.error('Error:', error));
